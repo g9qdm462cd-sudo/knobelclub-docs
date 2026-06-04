@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Knobelclub</title>
+<style>
+  :root {
+    --primary: #D32F2F;
+    --bg: #121212;
+    --surface: #1E1E1E;
+    --text: #FFFFFF;
+    --muted: rgba(255,255,255,0.6);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    background: var(--surface);
+    padding: 60px 24px;
+    text-align: center;
+  }
+  h1 {
+    font-size: 48px;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+  }
+  .tagline {
+    color: var(--muted);
+    font-size: 18px;
+  }
+  main {
+    flex: 1;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 24px;
+  }
+  h2 { margin: 32px 0 16px; color: var(--primary); }
+  p { margin-bottom: 12px; }
+  .links {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-top: 32px;
+  }
+  .links a {
+    color: var(--primary);
+    text-decoration: none;
+    padding: 12px 20px;
+    border: 1px solid var(--primary);
+    border-radius: 8px;
+    font-weight: 600;
+  }
+  .links a:hover { background: var(--primary); color: white; }
+  footer {
+    background: var(--surface);
+    padding: 24px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 13px;
+  }
+  footer a { color: var(--muted); margin: 0 8px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>🎲 KNOBELCLUB</h1>
+  <p class="tagline">Die digitale Knobel-Kasse</p>
+</header>
+
+<main>
+  <h2>Was ist Knobelclub?</h2>
+  <p>Knobelclub ist die App für euren Knobel-Abend — Strafen, Ranglisten und Spieltage, alles digital.</p>
+  <p>Mit der App verwaltest du deine Schocken-Runden, behältst den Überblick über die Kasse, siehst wer am meisten zahlt und wer die meisten Meier würfelt.</p>
+
+  <h2>Features</h2>
+  <p>• Live-Tracking während des Spiels<br>
+     • Automatische Kostenberechnung pro Spieler<br>
+     • Saison-Statistiken und Ranglisten<br>
+     • Zahlungsverwaltung mit Erinnerungen<br>
+     • Spieltag-Termine im Kalender<br>
+     • PDF-Export aller Abrechnungen</p>
+
+  <div class="links">
+    <a href="datenschutz.html">Datenschutzerklärung</a>
+    <a href="impressum.html">Impressum</a>
+  </div>
+</main>
+
+<footer>
+  © 2026 Michael Bartho ·
+  <a href="impressum.html">Impressum</a> ·
+  <a href="datenschutz.html">Datenschutz</a>
+</footer>
+</body>
+</html>
